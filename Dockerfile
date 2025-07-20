@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE ${PORT}
 
-CMD gunicorn --bind 0.0.0.0:${PORT} main:app
+CMD gunicorn --bind 0.0.0.0:${PORT} sanduk_docker:app
